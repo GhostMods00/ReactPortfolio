@@ -4,7 +4,7 @@ function Project({ title, description, image, deployedUrl, githubUrl, technologi
   return (
     <div className="bg-white rounded-lg shadow-md overflow-hidden">
       <img 
-        src={image} 
+        src={`https://placehold.co/600x400?text=${title}`} 
         alt={title} 
         className="w-full h-48 object-cover"
       />
