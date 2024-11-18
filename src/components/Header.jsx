@@ -10,7 +10,7 @@ const Header = ({ currentPage, handlePageChange }) => {
       <div className="container mx-auto px-4">
         <div className="flex justify-between items-center h-16">
           <h1 className="text-2xl font-bold text-primary-600 font-heading">
-            Your Name
+            Waleed Zaryab
           </h1>
 
           {/* Mobile menu button */}
