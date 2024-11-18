@@ -1,12 +1,14 @@
-import { useState } from 'react';
+import React, { useState } from 'react';
 import Header from './components/Header';
 import Footer from './components/Footer';
+
+// Import pages
 import About from './pages/About';
 import Portfolio from './pages/Portfolio';
 import Contact from './pages/Contact';
 import Resume from './pages/Resume';
 
-const App = () => {
+function App() {
   const [currentPage, setCurrentPage] = useState('About');
 
   const renderPage = () => {
@@ -25,16 +27,14 @@ const App = () => {
   };
 
   return (
-    <div className="min-h-screen flex flex-col bg-gray-50">
+    <div className="min-h-screen flex flex-col">
       <Header currentPage={currentPage} handlePageChange={setCurrentPage} />
       <main className="flex-1 container mx-auto px-4 py-8">
-        <div className="transition-all duration-300 ease-in-out">
-          {renderPage()}
-        </div>
+        {renderPage()}
       </main>
       <Footer />
     </div>
   );
-};
+}
 
 export default App;
