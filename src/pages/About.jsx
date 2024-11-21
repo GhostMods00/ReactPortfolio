@@ -11,7 +11,7 @@ function About() {
           className="w-64 h-64 rounded-full object-cover shadow-lg mx-auto md:mx-0"
           onError={(e) => {
             e.target.onerror = null; // Prevent infinite loop
-            e.target.src = "https://placehold.co/400x400/102030/FFFFFF/png?text=Profile+Photo";
+            e.target.src = "https://i.imgur.com/gT5x16F.jpeg";
           }}
         />
         <div className="space-y-4">
