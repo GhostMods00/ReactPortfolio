@@ -16,18 +16,31 @@ function About() {
         />
         <div className="space-y-4">
           <p className="text-lg text-gray-600">
-            Hello! I'm a passionate web developer with expertise in building modern, 
-            responsive web applications. I specialize in React, Node.js, and other 
-            contemporary web technologies.
+          My journey began with a simple "Hello World," but quickly evolved into an obsession with creating seamless, powerful web applications. I thrive on the challenge of bridging frontend aesthetics with backend functionality, turning complex problems into elegant solutions.
           </p>
           <p className="text-lg text-gray-600">
-            With a background in computer science and several years of hands-on 
-            experience, I enjoy creating efficient, user-friendly solutions to 
-            complex problems.
+        
+    
+💻 Currently mastering the full stack ecosystem.
+
+🌐 Fascinated by modern web technologies and cybersecurity.
+
+🔧 Building projects that merge functionality with futuristic design.
+
+🚀 Passionate about clean code and optimal performance.
+
+🎮 Influenced by cyber aesthetics and tech culture.
+
+📚 Perpetual learner, always exploring new technologies.
           </p>
           <p className="text-lg text-gray-600">
-            I'm always eager to learn new technologies and tackle challenging projects
-            that push my boundaries as a developer.
+          I believe in:
+
+Writing code that tells a story,
+Building applications that make a difference,
+Contributing to the developer community,
+Pushing the boundaries of conventional design,
+Maintaining the perfect balance between form and function,
           </p>
         </div>
       </div>
