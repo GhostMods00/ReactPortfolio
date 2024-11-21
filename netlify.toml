@@ -10,19 +10,3 @@ redirects
   from = "/*"
   to = "/index.html"
   status = 200
-
-[
-build.environment
-]
-  NODE_VERSION = "18"
-
-# Optional: Add headers for security
-[[
-headers
-]]
-  for = "/*"
-    [
-headers.values
-]
-    X-Frame-Options = "DENY"
-    X-XSS-Protection = "1; mode=block"
