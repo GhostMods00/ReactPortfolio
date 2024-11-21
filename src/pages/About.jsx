@@ -6,7 +6,7 @@ function About() {
       <h2 className="text-3xl font-bold mb-8">About Me</h2>
       <div className="flex flex-col md:flex-row gap-8 items-start">
         <img
-          src="src/assets/images/profile.jpg"
+          src="/images/profile.jpg"
           alt="Profile"
           className="w-64 h-64 rounded-full object-cover shadow-lg mx-auto md:mx-0"
           onError={(e) => {
