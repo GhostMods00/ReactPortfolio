@@ -13,7 +13,6 @@ const Resume = () => {
     backEnd: [
       'Node.js',
       'Express',
-      'MongoDB',
       'PostgreSQL',
       'RESTful APIs'
     ],
