@@ -115,9 +115,10 @@ The portfolio is organized into four main sections:
 
 ## 🚀 Deployment
 
-This portfolio is live at: [] 🌐
+This portfolio is live on Netlify at: [https://waleedzaryab.netlify.app/] 🌐
+[![Netlify Status](https://api.netlify.com/api/v1/badges/1a8bec89-df70-471d-abc7-fc92b9ae3e19/deploy-status)](https://app.netlify.com/sites/waleedzaryab/deploys)
 
-To deploy your own version:
+## To deploy your own version:
 
 1. Update `vite.config.js`:
 ```javascript
