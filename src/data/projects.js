@@ -21,8 +21,8 @@ export const projects = [
       title: "Cookwise",
       description: "CookWise is a smart recipe-finding application designed to help users discover the perfect dish based on the ingredients they have at home and their dietary preferences.",
       image: "/api/placeholder/400/300",
-      deployedUrl: "https://project3.com",
-      githubUrl: "https://algomystique.github.io/CookWiseGroupProject_1/",
+      deployedUrl: "https://algomystique.github.io/CookWiseGroupProject_1/",
+      githubUrl: "https://github.com/AlgoMystique/CookWiseGroupProject_1",
       technologies: ['HTML5', 'CSS3', 'JavaScript', 'Bootstrap']
     },
     {
